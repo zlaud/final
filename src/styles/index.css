@@ -1,0 +1,44 @@
+@import "./tailwind.css";
+
+#root {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: #080708;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #dcd0da,
+    #e4d5da,
+    #eadadb,
+    #ede1dd,
+    #efe7e1,
+    #f2ebe6,
+    #f5efeb,
+    #f8f3f0,
+    #fbf6f5,
+    #fcf9f9
+  );
+}
+
+button {
+  background-color: #7a6174;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+img {
+  width: 1rem; /* Set desired width */
+  object-fit: contain;
+}

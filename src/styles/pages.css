@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top,
+
+    #eadadb,
+    #ede1dd,
+    #efe7e1,
+    #f2ebe6,
+    #f5efeb,
+    #f8f3f0,
+    #fbf6f5,
+    #fcf9f9
+  );
+}
