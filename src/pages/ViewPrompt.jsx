@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import Comments from "../components/Comments";
-import "../styles/pages.css";
 
 const ViewPrompt = () => {
   const [prompt, setPrompt] = useState([]);
@@ -80,7 +79,9 @@ const ViewPrompt = () => {
       </div>
       <div className="border rounded-lg p-3 m-2 bg-white drop-shadow-md bg-opacity-90">
         <p className="font-light"> {prompt.prompt}</p>
-        {prompt.img ? <img src={prompt.img} alt="prompt" /> : null}
+        {prompt.img ? (
+          <img src={prompt.img} alt="prompt" className="w-1/2 p-2 m-2" />
+        ) : null}
         <div className="flex justify-between">
           <div className="flex my-2">
             <img
