@@ -108,7 +108,7 @@ const ViewPrompt = () => {
               overlayStyle={{ background: "rgba(0, 0, 0, 0.3)" }}
             >
               {(close) => (
-                <form onSubmit={(inputString) => deletePrompt(inputString)}>
+                <form onSubmit={deletePrompt}>
                   <div className="bg-white border rounded-xl p-10 bg-opacity-90">
                     <label htmlFor="secret">Secret Key: </label>
                     <input
